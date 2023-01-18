@@ -9,6 +9,12 @@
 body {
     background-color: black;
     min-width: 280px;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+main {
+    height: 90%;
 }
 
 .contenedor {
@@ -98,7 +104,8 @@ h1 {
     margin-bottom: 10px;
 }
 
-.gray-button, #botonDesplegar {
+.gray-button,
+#botonDesplegar {
     background-color: rgb(106, 106, 106);
     color: white;
     padding: 12px 24px;
@@ -110,7 +117,8 @@ h1 {
     transition: all 0.2s ease-in-out;
 }
 
-.gray-button:hover, #botonDesplegar:hover {
+.gray-button:hover,
+#botonDesplegar:hover {
     transform: scale(1.1);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -118,3 +126,20 @@ h1 {
 #botonDesplegar:hover {
     background-color: rgb(88, 87, 87);
 }
+
+footer {
+    height: 10%;
+    position: relative;
+    bottom: 0;
+}
+
+footer>p {
+    background-color: rgb(81, 81, 12);
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
