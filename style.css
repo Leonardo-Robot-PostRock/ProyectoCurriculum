@@ -8,6 +8,7 @@
 
 body {
     background-color: black;
+    min-width: 280px;
 }
 
 .contenedor {
