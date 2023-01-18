@@ -66,6 +66,26 @@ h2 {
 
 .informacion-desplegable {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#botonDesplegar {
+    width: max-content;
+}
+
+#contenidoDesplegable {
+    display: none;
+}
+
+.container-parrafo {
+    color: yellow;
+    margin-top: 10px;
+}
+
+.parrafo {
+    text-align: start;
 }
 
 .container-boton {
@@ -86,7 +106,7 @@ h2 {
     transition: all 0.2s ease-in-out;
 }
 
-.gray-button:hover {
+.gray-button:hover, #botonDesplegar:hover {
     transform: scale(1.1);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
