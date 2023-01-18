@@ -46,10 +46,8 @@ h1 {
     font-size: 20px;
 }
 
-#nombre,
 #correo,
-#telefono,
-h2 {
+#telefono {
     font-size: 14px;
 }
 
@@ -66,9 +64,13 @@ h2 {
 
 .informacion-desplegable {
     margin-top: 10px;
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.container-btnDesplegable {
+    display: flex;
+    justify-content: center;
 }
 
 #botonDesplegar {
@@ -85,13 +87,14 @@ h2 {
 }
 
 .parrafo {
-    text-align: start;
+    text-align: justify;
 }
 
 .container-boton {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 10px;
 }
 
 .gray-button, #botonDesplegar {
