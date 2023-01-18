@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap" rel="stylesheet" />
+    <title>User Random by Leonardo Gabriel Puebla</title>
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <h1>Mi curriculum Vitae</h1>
+      <div class="border">
+        <figure class="container-foto">
+          <img id="foto" src="" alt="imagen" />
+        </figure>
+        <hr />
+        <div class="container-nombre"><h2 id="nombre"></h2></div>
+        <div class="datos">
+          <p>Correo: <span id="correo"></span></p>
+          <p>Celular: <span id="telefono"></span></p>
+        </div>
+      </div>
+      <div class="informacion-desplegable">
+        <button id="botonDesplegar">Mostrar información</button>
+        <div id="contenidoDesplegable" style="display: none">
+          <p>Aquí va el contenido que deseas mostrar al hacer clic en el botón.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-boton">
+      <button id="boton-anterior" class="gray-button">ANTERIOR</button>
+      <button id="boton-siguiente" class="gray-button">SIGUIENTE</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

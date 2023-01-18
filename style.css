@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+body {
+    background-color: black;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.border {
+    border: solid white 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container-foto {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container-nombre {
+    margin: 10px;
+}
+
+#nombre {
+    text-align: center;
+    font-size: 20px;
+}
+
+#nombre,
+#correo,
+#telefono,
+h2 {
+    font-size: 14px;
+}
+
+#foto {
+    height: 80%;
+    border-radius: 50%;
+    border: white solid 2px;
+}
+
+#nombre,
+#datos {
+    width: 100%;
+}
+
+.informacion-desplegable {
+    margin-top: 10px;
+}
+
+.container-boton {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gray-button, #botonDesplegar {
+    background-color: rgb(106, 106, 106);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.gray-button:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#botonDesplegar:hover {
+    background-color: rgb(88, 87, 87);
+}
